@@ -18,91 +18,91 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Tin of Cookies',
+      name: 'Fresh Injera',
       description:
         'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: 'cookie-tin.jpg',
+      image: 'Injera_ethiopian_bread.jpg',
       category: categories[0]._id,
-      price: 2.99,
-      quantity: 500
+      price: 5.99,
+      quantity: 4
     },
     {
-      name: 'Canned Coffee',
+      name: 'unroasted coffee',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
-      image: 'canned-coffee.jpg',
+        'it is unroaste coffee which is in every house hold and it is very sensitive odor which is attractive when traditinally raosted',
+      image: 'ethiopian_coffee.jpg',
       category: categories[0]._id,
-      price: 1.99,
-      quantity: 500
+      price: 9.99,
+      quantity: 1
     },
     {
-      name: 'Toilet Paper',
+      name: 'Hand made ceramic Ethiopian-Eritrean coffee Set',
       category: categories[1]._id,
       description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
-      image: 'toilet-paper.jpg',
-      price: 7.99,
-      quantity: 20
+        'is used to drink coffee traditinally both in ethiopia and eritrea',
+      image: 'hand_made_ceramic_ethiopia_eritrian_coffee_set.jpg',
+      price:140.89,
+      quantity: 41
     },
     {
-      name: 'Handmade Soap',
+      name: 'Diana Soap',
       category: categories[1]._id,
       description:
         'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
-      image: 'soap.jpg',
+      image: 'diana_soap.png',
       price: 3.99,
       quantity: 50
     },
     {
-      name: 'Set of Wooden Spoons',
+      name: 'coffee pot',
       category: categories[1]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
-      image: 'wooden-spoons.jpg',
-      price: 14.99,
-      quantity: 100
+        'used to boill coffee traditinally in ethiopia and eritrea',
+      image: 'jebena_coffee_pot.jpg',
+      price:51.79,
+      quantity: 1
     },
     {
-      name: 'Camera',
+      name: 'Stove',
       category: categories[2]._id,
       description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
-      image: 'camera.jpg',
+        'traditional stove used to roast and boil coffee ethiopia and eritrea',
+      image: 'stove_coffee.jpg',
       price: 399.99,
       quantity: 30
     },
     {
-      name: 'Tablet',
+      name: 'Digital Mitad',
       category: categories[2]._id,
       description:
         'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
-      image: 'tablet.jpg',
-      price: 199.99,
-      quantity: 30
+      image: 'WASS-Grill-Digital-Mitad.png',
+      price: 150,
+      quantity: 1
     },
     {
-      name: 'Tales at Bedtime',
+      name: 'Feker Eske Mekaber',
       category: categories[3]._id,
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
-      image: 'bedtime-book.jpg',
+      image: 'feker_eske_mekaber.jpg',
       price: 9.99,
-      quantity: 100
+      quantity: 1
     },
     {
-      name: 'Spinning Top',
-      category: categories[4]._id,
+      name: 'Ethiopia foods book',
+      category: categories[3]._id,
       description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
-      image: 'spinning-top.jpg',
-      price: 1.99,
-      quantity: 1000
+      image: 'ethiopia_foods_book.jpg',
+      price: 5.99,
+      quantity: 1
     },
     {
       name: 'Set of Plastic Horses',
       category: categories[4]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
-      image: 'plastic-horses.jpg',
+      image: 'horse_set.jpg',
       price: 2.99,
       quantity: 1000
     },
@@ -111,7 +111,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
-      image: 'teddy-bear.jpg',
+      image: 'tedy_bear.jpg',
       price: 7.99,
       quantity: 100
     },
@@ -120,7 +120,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
+      image: 'alphabet_plastic.jpg',
       price: 9.99,
       quantity: 600
     }
