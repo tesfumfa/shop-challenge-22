@@ -25,6 +25,6 @@
   "homepage": "https://github.com/tesfumfa/shop-challenge-22#readme",
   "devDependencies": {
     "concurrently": "^7.0.0"
-  },
-  "dependencies": {}
+  }
+ 
 }
