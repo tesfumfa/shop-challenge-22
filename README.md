@@ -26,8 +26,8 @@ WHEN I review the way the app dispatches actions<br/>
 THEN I find that the app uses Redux instead of the Context API<br/>
 ## Links
 <ul>
-<li><a href="https://github.com/tesfumfa/book-search-engine"> Repo </a></li>
-<li><a href="https://booksearch-google-challenge-21.herokuapp.com/"> Live URL</a></li>
+<li><a href="https://github.com/tesfumfa/shop-challenge-22"> Repo </a></li>
+<li><a href="https://shoping-challenge-22.herokuapp.com/"> Live URL</a></li>
 </ul>
 
 
