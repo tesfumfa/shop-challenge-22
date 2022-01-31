@@ -20,7 +20,7 @@ db.once('open', async () => {
     {
       name: 'Fresh Injera',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        'Injera is traditinal food in ethiopia and eritrea and it is the only food tha is used with all kind of food.',
       image: 'Injera_ethiopian_bread.jpg',
       category: categories[0]._id,
       price: 5.99,
@@ -48,7 +48,7 @@ db.once('open', async () => {
       name: 'Diana Soap',
       category: categories[1]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
+        'it is first made using hand then gradually develop into factory which is now has many customers',
       image: 'diana_soap.png',
       price: 3.99,
       quantity: 50
@@ -75,7 +75,7 @@ db.once('open', async () => {
       name: 'Digital Mitad',
       category: categories[2]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
+        'this mahsine like for making just like bread for injera in any place in the world ',
       image: 'WASS-Grill-Digital-Mitad.png',
       price: 150,
       quantity: 1
@@ -84,7 +84,7 @@ db.once('open', async () => {
       name: 'Feker Eske Mekaber',
       category: categories[3]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
+        'this about love book in ethiopia',
       image: 'feker_eske_mekaber.jpg',
       price: 9.99,
       quantity: 1
@@ -92,7 +92,7 @@ db.once('open', async () => {
     {
       name: 'Ethiopia foods book',
       category: categories[3]._id,
-      description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
+      description: 'book on traditional food making in ethiopia',
       image: 'ethiopia_foods_book.jpg',
       price: 5.99,
       quantity: 1
@@ -101,7 +101,7 @@ db.once('open', async () => {
       name: 'Set of Plastic Horses',
       category: categories[4]._id,
       description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+        'this a set of horse toy',
       image: 'horse_set.jpg',
       price: 2.99,
       quantity: 1000
@@ -110,7 +110,7 @@ db.once('open', async () => {
       name: 'Teddy Bear',
       category: categories[4]._id,
       description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
+        'teddy bear toy',
       image: 'tedy_bear.jpg',
       price: 7.99,
       quantity: 100
@@ -119,7 +119,7 @@ db.once('open', async () => {
       name: 'Alphabet Blocks',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+        ' Alphabet Blocks details',
       image: 'alphabet_plastic.jpg',
       price: 9.99,
       quantity: 600
